@@ -14,6 +14,6 @@ int main() {
     double b;
     read("a = ", &a);
     read("b = ", &b);
-    printf("Results: %lf, %lf\n", calc_first(a, b), calc_second(b));
+    printf("z1 = %lf\nz2 = %lf\n", calc_first(a, b), calc_second(b));
     return 0;
 }
